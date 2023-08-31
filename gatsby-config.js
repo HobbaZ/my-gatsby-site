@@ -3,18 +3,83 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `my gatsby site`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Blogsparks`,
+    author: {
+      name: `Zac Hobba`,
+      summary: `A blog about buying expired domains and what to do with them.`,
+    },
+    description: `A blog about buying expired domains, and what to do with them.`,
+    siteUrl: `https://www.zachobba.com.au/`,
+    social: {
+      linkedin: "https://www.linkedin.com/in/zachary-hobba/",
+      github: "https://github.com/HobbaZ",
+      website: "https://www.zachobba.com.au/",
+      coffee: "https://www.buymeacoffee.com/zachobbas",
+      email: "mailto:zachobba@gmail.com",
+    },
   },
   plugins: [
     "gatsby-plugin-mdx",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
       },
-      __key: "pages",
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {},
+    },
+
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.nodes.map((node) => {
+                return Object.assign({}, node.frontmatter, {
+                  description: node.excerpt,
+                  date: node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  custom_elements: [{ "content:encoded": node.html }],
+                });
+              });
+            },
+            query: `{
+              allMarkdownRemark(sort: {frontmatter: {date: ASC}}) {
+                nodes {
+                  excerpt
+                  html
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                    date
+                  }
+                }
+              }
+            }`,
+            output: "/rss.xml",
+            title: "Blogsparks",
+          },
+        ],
+      },
     },
   ],
 };
