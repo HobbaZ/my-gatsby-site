@@ -1,3 +1,13 @@
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
+![License](https://img.shields.io/badge/Made%20with-Gatsby-darkblue.svg)
+[![Github Commits](https://img.shields.io/github/commit-activity/w/HobbaZ/my-gatsby-site)](https://github.com/HobbaZ/my-gatsby-site/commits)
+[![GitHub latest commit](https://img.shields.io/github/last-commit/HobbaZ/my-gatsby-site)](https://github.com/HobbaZ/my-gatsby-site/branches)
+[![GitHub followers](https://img.shields.io/github/followers/HobbaZ.svg)]()
+![GitHub repo size](https://img.shields.io/github/repo-size/HobbaZ/my-gatsby-site)
+[![GitHub issues](https://img.shields.io/github/issues/HobbaZ/my-gatsby-site)](https://img.shields.io/github/issues/HobbaZ/my-gatsby-site)
+![GitHub forks](https://img.shields.io/github/forks/HobbaZ/my-gatsby-site)
+![GitHub language count](https://img.shields.io/github/languages/count/HobbaZ/my-gatsby-site)
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
