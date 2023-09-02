@@ -9,6 +9,7 @@ module.exports = {
       summary: `A blog about buying expired domains and what to do with them.`,
     },
     description: `A blog about buying expired domains, and what to do with them.`,
+    keywords: `blog, personal blog, my blog, expired, domain, web address, domain name`,
     siteUrl: `https://www.zachobba.com.au/`,
     social: {
       linkedin: "https://www.linkedin.com/in/zachary-hobba/",
@@ -41,6 +42,7 @@ module.exports = {
               siteMetadata {
                 title
                 description
+                keywords
                 siteUrl
                 site_url: siteUrl
               }

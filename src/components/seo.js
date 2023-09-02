@@ -16,6 +16,7 @@ const Seo = ({ description, title, children }) => {
           siteMetadata {
             title
             description
+            keywords
             social {
               linkedin
               github
@@ -31,6 +32,7 @@ const Seo = ({ description, title, children }) => {
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
+  const keywords = site.siteMetadata?.keywords;
 
   return (
     <>
@@ -43,7 +45,7 @@ const Seo = ({ description, title, children }) => {
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
       <meta name="" content="summary" />
-
+      <meta name="keywords" content={keywords} />
       <meta name="" content={title} />
       <meta name="" content={metaDescription} />
       {children}

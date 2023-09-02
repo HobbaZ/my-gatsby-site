@@ -3,7 +3,7 @@ title: What to look for before buying a domain
 date: "2023-08-31"
 ---
 
-There are a few main pointers when buying a domain. You have to consider your budget, the domain length, the appeal and potential of the domain, estimated value and historical use. These values all play a part in determining if the domain has the potential to be transformed from a barren wasteland into a successful brand.
+There are a few main pointers when buying a domain, you have to consider your budget, the domain length, the appeal and potential of the domain, estimated value and historical use. These values all play a part in determining if the domain has the potential to be transformed from a barren wasteland into a successful brand.
 
 ##### Your budget
 
@@ -11,7 +11,7 @@ The first and most important step is to have a clear budget and to know when to 
 
 ##### Domain length
 
-The second factor to consider is domain length, generally domains shorter than 12 characters are worth more than longer domain names as they are easier to remember and type. While looking at domains, you'll eventually come across Number domains, these are very popular in China as the numbers can stand for words and phrases, and are generally easier to type and remember. Unless you know what they mean, I'd probably stay away from them as a bad combination of numbers will be extremely hard to sell as the target market for is limited.
+The second factor to consider is domain length, generally domains shorter than 12 characters are worth more than longer domain names as they are easier to remember and type. While looking at domains, you'll eventually come across Number domains, these are very popular in China as the numbers can stand for words and phrases, and are generally easier to type and remember. Unless you know what they mean, I'd probably stay away from them as a bad combination of numbers will be extremely hard to sell as the target market is limited.
 
 ##### Name appeal
 
@@ -24,3 +24,7 @@ The easiest way to get an estimate is to go to [GoDaddy domain appraisals](https
 ##### Historical use
 
 Another thing to check is the historical use of the domain via a site called [The Wayback Machine](https://web.archive.org/), this site provides visual snapshots of the domain throughout it's use and can help you determine if the site was actually active with meaningful content and backlinks or if it was a parking page. This will have a large effect on its overall value as well.
+
+##### More in depth statistics
+
+Serious buyers looking at domain investing can use websites like Semrush or Mangools To get more in depth statistics like number of backlinks, backlink content, historical site traffic, keyword tracking to determine the next popular domain names and a myriad of other things. These tools can cost a lot of money and some are not beginner friendly
