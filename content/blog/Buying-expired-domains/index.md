@@ -3,8 +3,6 @@ title: Buying expired domains?
 date: "2023-08-30"
 ---
 
-## So, why should you buy an expired domain?
-
 Reduce, reuse, recycle doesn't just apply to aluminium cans and other recyclables, it can also be applied to online endeavours. Instead of creating a domain name and eventually subjecting it to the theoretical landfill of the domain registrar because you forgot to renew your hosting or lost interest in your project, consider digging through the landfill to find an unexpected diamond in the rough that suits your idea perfectly.
 
 ##### SEO

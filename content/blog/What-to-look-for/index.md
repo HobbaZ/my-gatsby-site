@@ -3,9 +3,7 @@ title: What to look for before buying a domain
 date: "2023-08-31"
 ---
 
-## What to look for before buying a domain
-
-There are a few main pointers when buying a domain, your budget, the domain length, the appeal and potential of the domain, estimated value and historical use. These values all play a part in determining the overall dollar value and potential to transform that barren domain into a successful brand.
+There are a few main pointers when buying a domain. You have to consider your budget, the domain length, the appeal and potential of the domain, estimated value and historical use. These values all play a part in determining if the domain has the potential to be transformed from a barren wasteland into a successful brand.
 
 ##### Your budget
 
@@ -17,7 +15,7 @@ The second factor to consider is domain length, generally domains shorter than 1
 
 ##### Name appeal
 
-The third factor is the appeal and potential of the name itself. Is the domain name memorable, catchy or represents a niche interest? Then it will carry more value and meaning to your audience than a name that is more generic. Occasionally the domain extension will be incorporated in the domain to form a word or phrase, these can command higher prices but also be more expensive to host.
+The third factor is the appeal and potential of the name itself. Is the domain name memorable, catchy or represents a niche interest? Then it will carry more value and meaning to your audience than a name that is more generic. Occasionally the domain extension will be incorporated in the domain to form a word or phrase, these can command higher prices and also be more expensive to host.
 
 ##### Domain value
 
