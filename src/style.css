@@ -52,8 +52,8 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #ff7d04ec;
-  --color-primary-hover: #003558;
+  --color-primary: #e7e416;
+  --color-primary-hover: #da7400;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -74,12 +74,13 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-text);
 }
 
 body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
-  color: var(--color-text);
+  color: var(--color-accent);
 }
 
 footer {
@@ -119,7 +120,7 @@ h6 {
 h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
-  color: var(--color-heading-black);
+  color: var(--color-primary);
 }
 
 h2 {
@@ -275,6 +276,15 @@ a:hover {
 
 .bio p {
   margin-bottom: var(--spacing-0);
+}
+
+.blog-post section::first-letter {
+  font-size: 3rem;
+  font-weight: 600;
+  float: left;
+  line-height: 0.5rem;
+  margin-right: 0.5rem;
+  color: rgb(255, 255, 255);
 }
 
 .bio-avatar {
