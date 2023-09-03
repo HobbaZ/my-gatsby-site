@@ -10,7 +10,7 @@ module.exports = {
     },
     description: `A blog about buying expired domains, and what to do with them.`,
     keywords: `blog, personal blog, my blog, expired, domain, web address, domain name, domain expires`,
-    siteUrl: `https://www.zachobba.com.au/`,
+    siteUrl: `https://www.blogsparks.com/`,
     social: {
       linkedin: "https://www.linkedin.com/in/zachary-hobba/",
       github: "https://github.com/HobbaZ",
