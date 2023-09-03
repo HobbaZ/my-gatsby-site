@@ -4,12 +4,19 @@ import { Link, graphql } from "gatsby";
 import Bio from "../components/bio";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import { Disqus } from "gatsby-plugin-disqus";
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`;
+
+  let disqusConfig = {
+    url: `${site.siteMetadata?.siteUrl + location.pathname}`,
+    identifier: siteTitle,
+    title: siteTitle,
+  };
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -28,6 +35,9 @@ const BlogPostTemplate = ({
           itemProp="articleBody"
         />
         <hr />
+
+        <Disqus config={disqusConfig} />
+
         <footer>
           <Bio />
         </footer>

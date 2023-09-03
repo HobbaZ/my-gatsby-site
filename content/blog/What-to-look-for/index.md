@@ -1,9 +1,9 @@
 ---
-title: What to look for before buying a domain
+title: What to look for before buying an expired domain
 date: "2023-08-31"
 ---
 
-There are a few main pointers when buying a domain, you have to consider your budget, the domain length, the appeal and potential of the domain, estimated value and historical use. These values all play a part in determining if the domain has the potential to be transformed from a barren wasteland into a successful brand.
+There are a few main pointers when buying an expired domain, you have to consider your budget, the domain length, the appeal and potential of the domain, estimated value and historical use. These values all play a part in determining if the domain has the potential to be transformed from a barren wasteland into a successful brand.
 
 ##### Your budget
 
@@ -27,4 +27,4 @@ Another thing to check is the historical use of the domain via a site called [Th
 
 ##### More in depth statistics
 
-Serious buyers looking at domain investing can use websites like Semrush or Mangools To get more in depth statistics like number of backlinks, backlink content, historical site traffic, keyword tracking to determine the next popular domain names and a myriad of other things. These tools can cost a lot of money and some are not beginner friendly
+Serious buyers looking at domain investing can use websites like Semrush or [Mangools](https://mangools.com/) To get more in depth statistics like number of backlinks, backlink content, historical site traffic, keyword tracking to determine the next popular domain names and a myriad of other things. These tools can cost a lot of money and some are not beginner friendly, but they can give you valuable insights as to your domain's history and ideas for metadata keywords to boost your seo.

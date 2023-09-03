@@ -1,5 +1,5 @@
 ---
-title: Buying expired domains?
+title: Why buy an expired domain?
 date: "2023-08-30"
 ---
 

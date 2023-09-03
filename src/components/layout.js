@@ -30,13 +30,14 @@ const Layout = ({ location, title, children }) => {
       <footer>
         {title} © {new Date().getFullYear()}, Built with
         {` `}
-        <a target="_blank" href="https://www.gatsbyjs.com">
+        <a target="_blank" rel="noreferrer" href="https://www.gatsbyjs.com">
           Gatsby
         </a>
         <br />
         Colours inspired by{" "}
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://coolors.co/?ref=64f312f209ab63000b5c96b6"
         >
           Coolers

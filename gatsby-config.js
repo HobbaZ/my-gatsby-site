@@ -9,7 +9,7 @@ module.exports = {
       summary: `A blog about buying expired domains and what to do with them.`,
     },
     description: `A blog about buying expired domains, and what to do with them.`,
-    keywords: `blog, personal blog, my blog, expired, domain, web address, domain name`,
+    keywords: `blog, personal blog, my blog, expired, domain, web address, domain name, domain expires`,
     siteUrl: `https://www.zachobba.com.au/`,
     social: {
       linkedin: "https://www.linkedin.com/in/zachary-hobba/",
@@ -26,6 +26,12 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `blogsparks`,
       },
     },
     {
