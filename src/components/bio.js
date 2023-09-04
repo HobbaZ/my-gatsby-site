@@ -60,19 +60,44 @@ const Bio = () => {
           </p>
 
           <div className="icons">
-            <a target="_blank" href={`${social?.github || ``}`}>
+            <a
+              target="_blank"
+              title="Zac Hobba's Github"
+              rel="noreferrer"
+              href={`${social?.github || ``}`}
+            >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a target="_blank" href={`${social?.website || ``}`}>
+            <a
+              target="_blank"
+              title="Zac Hobba's personal website"
+              rel="noreferrer"
+              href={`${social?.website || ``}`}
+            >
               <FontAwesomeIcon icon={faGlobeOceania} />
             </a>
-            <a target="_blank" href={`${social?.linkedin || ``}`}>
+            <a
+              target="_blank"
+              title="Zac Hobba's LinkedIn"
+              rel="noreferrer"
+              href={`${social?.linkedin || ``}`}
+            >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a target="_blank" href={`${social?.email || ``}`}>
+            <a
+              target="_blank"
+              title="Zac Hobba's Email"
+              rel="noreferrer"
+              href={`${social?.email || ``}`}
+            >
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
-            <a target="_blank" href={`${social?.coffee || ``}`}>
+            <a
+              target="_blank"
+              title="Zac Hobba's buy me a coffee page"
+              rel="noreferrer"
+              href={`${social?.coffee || ``}`}
+            >
               <FontAwesomeIcon icon={faCoffee} />
             </a>
           </div>
