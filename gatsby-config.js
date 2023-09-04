@@ -1,6 +1,11 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `Blogsparks`,
@@ -37,6 +42,22 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {},
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          process.env.GATSBY_GOOGLE_GTAG, // Google Analytics / GA
+        ],
+        // This object gets passed directly to the gtag config command
+        // This config will be shared across all trackingIds
+        gtagConfig: {
+          optimize_id: process.env.GATSBY_GOOGLE_ID,
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+      },
     },
 
     {
