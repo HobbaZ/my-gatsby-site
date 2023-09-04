@@ -8,52 +8,96 @@
 ![GitHub forks](https://img.shields.io/github/forks/HobbaZ/my-gatsby-site)
 ![GitHub language count](https://img.shields.io/github/languages/count/HobbaZ/my-gatsby-site)
 
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+## Description
 
-## 🚀 Quick start
+### Project Aim
 
-1.  **Create a Gatsby site.**
+Make a personal blog with Gatsby.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+### What Problem Does It Solve
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+### What I Learnt
 
-2.  **Start developing.**
+How to use Gatsby.
 
-    Navigate into your new site’s directory and start it up.
+## Deployment
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Deploying on Netlify
 
-3.  **Open the code and start customizing!**
+## Table of Contents
 
-    Your site is now running at http://localhost:8000!
+- [Description](#description)
+- [User Story](#user-story)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Features](#features)
+- [Technology](#technology)
+- [Contributors](#contributors)
+- [Acknowledgements](#acknowledgements)
+- [Testing](#testing)
+- [License](#license)
+- [Questions](#questions)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## User Story
 
-4.  **Learn more**
+I WANT to make a simple blog with Gatsby.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Screenshots
 
-## 🚀 Quick start (Netlify)
+## Installation
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+Prerequisite: [Have to install Gatsby before install](https://www.npmjs.com/package/gatsby)
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+1. Clone the repo to your computer by clicking the green code button and copying the SSH version or clicking the blue use template button.
+
+2. Open Gitbash in your desired folder and type `git clone ` then right click to paste the string and hit enter. The repo will then be cloned to your computer.
+
+3. Navigate to the repo folder and type `code .` into gitbash to open the repo in VS Code.
+
+4. Open a new Terminal in VS Code and type `npm install` to install the repo dependencies.
+
+5. Finally, type `npm run develop` into the terminal and it will start the dev server.
+
+Note: To make a static no backend React site work on Heroku you need to take all the files out of the folder name you specified in the react-create-app. E.g. if you did create-react-app client, React will create the app in a folder called client, take all the files out of the client folder so they are now all at root level and then delete the empty client folder.
+
+## Features
+
+Read blog posts and comment on them via Disqus
+
+## Technology
+
+- Gatsby
+- Google Analytics
+
+## Contributors
+
+[Zachary Hobba](https://github.com/HobbaZ)
+
+You can also contribute by opening a pull request or submitting an issue.
+
+## Acknowledgements
+
+[Env variables in Gatsby](https://dev.to/steeeeeph/how-to-implement-env-variables-in-gatsby-and-react-252d)
+
+## Testing
+
+No tests for this project
+
+## License
+
+MIT
+
+**Copyright 2023 Zachary Hobba**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Questions
+
+Find me on Github at [HobbaZ](https://github.com/HobbaZ)
+
+If this has helped you with your web development, consider buying me a Coffee (only costs $3) at [zachobba](https://buymeacoffee.com/zachobbaS)
+
+Email me at [zachobba@gmail.com](zachobba@gmail.com)
