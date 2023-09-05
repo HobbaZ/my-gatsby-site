@@ -27,7 +27,9 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>
+            {post.frontmatter.date} | {post.fields.readingTime.text}
+          </p>
         </header>
 
         <section
@@ -105,6 +107,9 @@ export const pageQuery = graphql`
       }
       fields {
         slug
+        readingTime {
+          text
+        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

@@ -54,7 +54,7 @@ Prerequisite: [Have to install Gatsby before install](https://www.npmjs.com/pack
 
 3. Navigate to the repo folder and type `code .` into gitbash to open the repo in VS Code.
 
-4. Open a new Terminal in VS Code and type `npm install` to install the repo dependencies.
+4. Open a new Terminal in VS Code and type `npm run install` to install the repo dependencies, some of the dependencies are suited for earlier versions of Gatsby, this will force install them.
 
 5. Finally, type `npm run develop` into the terminal and it will start the dev server.
 

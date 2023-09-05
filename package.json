@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "install": "npm i --force"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -24,9 +25,11 @@
     "gatsby": "^5.12.1",
     "gatsby-plugin-disqus": "^1.2.6",
     "gatsby-plugin-feed": "^5.12.0",
+    "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-google-gtag": "^5.12.0",
     "gatsby-plugin-mdx": "^5.12.0",
     "gatsby-plugin-sharp": "^5.12.0",
+    "gatsby-remark-reading-time": "^1.1.0",
     "gatsby-source-filesystem": "^5.12.0",
     "gatsby-transformer-remark": "^6.12.0",
     "gatsby-transformer-sharp": "^5.12.0",
