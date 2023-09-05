@@ -34,7 +34,6 @@ module.exports = {
       },
     },
 
-    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
@@ -43,9 +42,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-reading-time`],
-      },
+      options: {},
     },
     {
       resolve: `gatsby-plugin-google-gtag`,

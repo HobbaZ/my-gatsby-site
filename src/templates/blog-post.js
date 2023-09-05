@@ -1,10 +1,11 @@
-import * as React from "react";
+import React from "react";
 import { Link, graphql } from "gatsby";
 
 import Bio from "../components/bio";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import { Disqus } from "gatsby-plugin-disqus";
+import ReadingTime from "../components/readingTime";
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -22,13 +23,14 @@ const BlogPostTemplate = ({
     <Layout location={location} title={siteTitle}>
       <article
         className="blog-post"
+        id="article"
         itemScope
         itemType="http://schema.org/Article"
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>
-            {post.frontmatter.date} | {post.fields.readingTime.text}
+            {post.frontmatter.date} | <ReadingTime />
           </p>
         </header>
 
@@ -107,9 +109,6 @@ export const pageQuery = graphql`
       }
       fields {
         slug
-        readingTime {
-          text
-        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
