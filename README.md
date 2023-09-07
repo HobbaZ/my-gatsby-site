@@ -46,7 +46,7 @@ I WANT to make a simple blog with Gatsby.
 
 ## Installation
 
-Prerequisite: [Have to install Gatsby before install](https://www.npmjs.com/package/gatsby)
+Pre-requisite: [Have to install Gatsby before install](https://www.npmjs.com/package/gatsby)
 
 1. Clone the repo to your computer by clicking the green code button and copying the SSH version or clicking the blue use template button.
 
@@ -54,11 +54,9 @@ Prerequisite: [Have to install Gatsby before install](https://www.npmjs.com/pack
 
 3. Navigate to the repo folder and type `code .` into gitbash to open the repo in VS Code.
 
-4. Open a new Terminal in VS Code and type `npm run install` to install the repo dependencies, some of the dependencies are suited for earlier versions of Gatsby, this will force install them.
+4. Open a new Terminal in VS Code and type `npm i` to install the repo dependencies.
 
 5. Finally, type `npm run develop` into the terminal and it will start the dev server.
-
-Note: To make a static no backend React site work on Heroku you need to take all the files out of the folder name you specified in the react-create-app. E.g. if you did create-react-app client, React will create the app in a folder called client, take all the files out of the client folder so they are now all at root level and then delete the empty client folder.
 
 ## Features
 
