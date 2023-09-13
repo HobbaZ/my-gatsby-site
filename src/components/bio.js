@@ -102,6 +102,19 @@ const Bio = () => {
             </a>
           </div>
           <hr />
+
+          <p>
+            <strong>Affiliate Links</strong>
+          </p>
+          <a
+            target="_blank"
+            type="button"
+            rel="noreferrer"
+            className="affiliateButton"
+            href="https://www.tkqlhce.com/click-100990459-15600361"
+          >
+            NameCheap
+          </a>
         </>
       )}
     </div>

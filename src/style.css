@@ -315,6 +315,19 @@ a:hover {
   margin-bottom: var(--spacing-8);
 }
 
+.bio .affiliateButton {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.affiliateButton:hover {
+  background-color: rgb(151, 0, 0);
+  color: white;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

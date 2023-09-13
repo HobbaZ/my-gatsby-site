@@ -27,4 +27,4 @@ Another thing to check is the historical use of the domain via a site called [Th
 
 ##### More in depth statistics
 
-Serious buyers looking at domain investing can use websites like Semrush or [Mangools](https://mangools.com/) To get more in depth statistics like number of backlinks, backlink content, historical site traffic, keyword tracking to determine the next popular domain names and a myriad of other things. These tools can cost a lot of money and some are not beginner friendly, but they can give you valuable insights as to your domain's history and ideas for metadata keywords to boost your seo.
+Serious buyers looking at domain investing can use websites like Semrush or [Mangools](https://mangools.com/) To get more in depth statistics like number of backlinks, backlink content, historical site traffic, keyword tracking to determine the next popular domain names and a myriad of other things. These tools can cost a lot of money and some are not beginner friendly, but they can give you valuable insights as to your domain's history and ideas for metadata keywords to boost your SEO.
