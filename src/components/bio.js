@@ -107,13 +107,31 @@ const Bio = () => {
             <strong>Affiliate Links</strong>
           </p>
           <a
+            href="https://www.tkqlhce.com/click-100990459-15053968"
             target="_blank"
-            type="button"
             rel="noreferrer"
-            className="affiliateButton"
-            href="https://www.tkqlhce.com/click-100990459-15600361"
           >
-            NameCheap
+            <img
+              src="https://www.lduhtrp.net/image-100990459-15053968"
+              width="728"
+              height="90"
+              alt="Best secure VPN service"
+              border="0"
+            />
+          </a>
+
+          <a
+            href="https://www.tkqlhce.com/click-100990459-14326263"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://www.lduhtrp.net/image-100990459-14326263"
+              width="728"
+              height="90"
+              alt="Popular Domains for just 99 Cents at Namecheap!"
+              border="0"
+            />
           </a>
         </>
       )}

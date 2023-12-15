@@ -37,8 +37,6 @@ const Seo = ({ description, title, children }) => {
   return (
     <>
       <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
-      {/*impact affiliate link* remove when verified*/}
-      <meta name="ir-site-verification-token" value="1601023457"></meta>
 
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
